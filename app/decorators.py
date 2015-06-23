@@ -1,5 +1,5 @@
 __author__ = 'slipvyne'
-from Threading import Thread
+from threading import Thread
 
 def async(f):
     def wrapper(*args, **kwargs):
